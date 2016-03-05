@@ -111,10 +111,10 @@ return {
     '!antibot disallow <botId>: Disallow <botId> on this chat'
   },
   patterns = {
-    '^!antibot (allow) (%d+)$',
-    '^!antibot (disallow) (%d+)$',
-    '^!antibot (enable)$',
-    '^!antibot (disable)$',
+    '^#antibot (allow) (%d+)$',
+    '^#antibot (disallow) (%d+)$',
+    '^#antibot (enable)$',
+    '^#antibot (disable)$',
     '^!!tgservice (chat_add_user)$',
     '^!!tgservice (chat_add_user_link)$'
   },
