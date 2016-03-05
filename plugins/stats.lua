@@ -173,9 +173,9 @@ return {
     "stats pixel: Shows bot stats (sudo users)"
   },
   patterns = {
-    "^[!/#$&@ ]([Ss]tats)$",
-    "^[!/#$&@ ]([Ss]tats) (chat) (%d+)",
-    "^[!/#$&@ ]([Ss]tats) (pixel)"
+    "^[!/#]([Ss]tats)$",
+    "^[!/#]([Ss]tats) (chat) (%d+)",
+    "^[!/#]([Ss]tats) (hex)"
     }, 
   run = run,
   pre_process = pre_process
