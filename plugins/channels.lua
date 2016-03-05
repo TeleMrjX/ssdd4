@@ -68,8 +68,8 @@ end
 
 return {
 	patterns = {
-		"^!channel? (enable)",
-		"^!channel? (disable)" }, 
+		"^#channel? (enable)",
+		"^#channel? (disable)" }, 
 	run = run,
 	privileged = true,
 	pre_process = pre_process
