@@ -29,10 +29,10 @@ end
 return {
   description = "Bot kicks user",
   usage = {
-    "!kickme"
+    "#kickme"
   },
   patterns = {
-    "^!kickme$"
+    "^#kickme$"
   },
   run = run
 }
