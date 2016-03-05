@@ -135,8 +135,8 @@ end
 
 return {
 	patterns = {
-		"^[!/][Ff](ilter) (.+) (.*)$",
-		"^[!/][Ff](ilterlist)$",
+		"^[#!/][Ff](ilter) (.+) (.*)$",
+		"^[#!/][Ff](ilterlist)$",
 		"(.*)",
 	},
 	run = run
