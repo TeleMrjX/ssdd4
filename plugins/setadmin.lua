@@ -19,7 +19,7 @@
  
  return {
    patterns = {
-     "^[/!]setadmin +(.+)$"
+     "^[#/!]setadmin +(.+)$"
   }, 
    run = run 
  }
