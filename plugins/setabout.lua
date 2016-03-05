@@ -15,7 +15,7 @@ end
  
  return {
    patterns = {
-     "^!setabout (.*)$"
+     "^#setabout (.*)$"
   }, 
    run = run 
  }
