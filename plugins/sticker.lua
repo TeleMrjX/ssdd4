@@ -8,8 +8,8 @@ function run(msg, matches)
 end
 return {
   patterns = {
-    "^#(sticker)$"
-	"^#(sticker)$"
+    "^(sticker)$"
+	"^(sticker)$"
   }, 
   run = run 
 }
