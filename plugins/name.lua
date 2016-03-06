@@ -15,7 +15,7 @@ end
  
  return {
    patterns = {
-     "^[#/!]setname +(.+)$"
+     "^[/!]setname +(.+)$"
   }, 
    run = run 
  }
