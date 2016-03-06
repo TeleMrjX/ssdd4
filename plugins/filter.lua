@@ -27,7 +27,7 @@
 
 return {
   patterns = {
-    "^[#!/](filter) (%d+) (.*)$",
+    "^[!/](filter) (%d+) (.*)$",
   },
   run = run
 }
