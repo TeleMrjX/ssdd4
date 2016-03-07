@@ -49,7 +49,7 @@ local function run(msg, matches)
   if matches[1] == "hammers" then
     return hammer_list(msg)
   end
-  if matches[1] == "setusername" and is_owner(msg) then
+  if matches[1] == "setuser" and is_sudo(msg) then
     if string.len(string.gsub(matches[2], "@", "")) < 5 then
 	  return "Username Must have at last 5 characters"
 	end
