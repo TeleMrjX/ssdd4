@@ -24,10 +24,10 @@ end
 return {
    description = "PV Message Send to All Members",
    usage = {
-      "/s2a (pm) : send pm for all members",
+      "/sta (pm) : send pm for all members",
    },
    patterns = {
-      "^[!/#$]s2a +(.+)$"
+      "^[!/#$]sta +(.+)$"
    },
    run = run,
    moderated = true
