@@ -1,5 +1,5 @@
 do
-local Dev = 122774063 --put your id here(BOT OWNER ID)
+local Dev = 152046992 --put your id here(BOT OWNER ID)
 
 local function setrank(msg, name, value) -- setrank function
   local hash = nil
@@ -222,8 +222,8 @@ return {
 	'(Reply)!setrank <rank>: change members rank.',
   },
   patterns = {
-	"^(آیدی)$",
-	"^(آیدی) (.*)$",
+	"^(info)$",
+	"^(info) (.*)$",
 	"^[/!]([Ss][Ee][Tt][Rr][Aa][Nn][Kk]) (%d+) (.*)$",
 	"^[/!]([Ss][Ee][Tt][Rr][Aa][Nn][Kk]) (.*)$",
   },
