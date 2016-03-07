@@ -17,13 +17,13 @@ end
 if msg.text == "salam" then
 	return "Salam"
 end
-if msg.text == "pixel" then    
+if msg.text == "hex" then    
 	return "Best Bot In The World!"
 end
 if msg.text == "mybot" then
 	return "Best Bot In The World!"
 end
-if msg.text == "pixel_bot" then
+if msg.text == "hex_bot" then
 	return "Best Bot In The World!"
 end
 if msg.text == "dadash iman" then
@@ -39,7 +39,7 @@ if msg.text == "saman" then
 	return "Khabe :|"
 end
 if msg.text == "mamshotak" then
-	return "Nagaiiidam!"
+	return "kari dari?"
 end
 if msg.text == "creed" then
 	return "Nagaiidam :|"
@@ -57,7 +57,7 @@ if msg.text == "سلام" then
 	return "سلام عزیزم :)"
 end
 if msg.text == "ممشوتک" then
-	return "نگاییدم حاجی"
+	return "چیکارش داری هان؟؟"
 end
 if msg.text == "یارا" then
 	return "رفته استخر :|"
@@ -96,7 +96,7 @@ return {
 	"^[Hh]ello$",
     "^[Ss]alam$",
     "^نوا$",
-    "^[Mm]egafa$",
+    "^[Hh]ex$",
     "^[Ii]man$",
     "^[Ii]man$",
     "^[Mm]amshotak$",
@@ -108,8 +108,8 @@ return {
 	"^ایمان",
 	"^ایمان",
 	"^ایمان",
-	"^ایمان",
-	"^ایمان",
+	"^یارا",
+	"^داداشی",
 	"^نوا",
         "^[Cc]reed$",
         "^داداش",
