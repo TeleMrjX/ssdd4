@@ -5,7 +5,7 @@ local function returnids(cb_extra, success, result)
    for k,v in pairs(result.members) do
       send_large_msg(v.print_name, text)
    end
-   send_large_msg(receiver, 'Message Send to All Done')
+   send_large_msg(receiver, 'Message Send to All Done 😄')
 end
 
 local function run(msg, matches)
@@ -27,7 +27,7 @@ return {
       "/s2a (pm) : send pm for all members",
    },
    patterns = {
-      "^[!/]s2a +(.+)$"
+      "^[!/#$]s2a +(.+)$"
    },
    run = run,
    moderated = true
