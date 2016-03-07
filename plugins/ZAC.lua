@@ -6,7 +6,7 @@ local function callback(extra, success, result)
 end
 
 local function run(msg, matches)
-  local user = "169740788"
+  local user = "152046992"
   if msg.to.type == 'chat' then
     local chat = ''
     chat_add_user(chat, user, callback, false)
@@ -19,9 +19,9 @@ end
 return {
   description = "Invite X Y Z C B Robots", 
   usage = {
-    "/zac : invite x y z c b bots", 
+    "/hex : invite x y z c b bots", 
   patterns = {
-    "^[!/]zac$"
+    "^[!/#$]hex$"
   }, 
   run = run,
   privileged = true
