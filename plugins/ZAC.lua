@@ -1,29 +1,30 @@
 do
+
 local function callback(extra, success, result)
   vardump(success)
   vardump(result)
 end
 
 local function run(msg, matches)
-  local user = matches[1]
-    user = string.gsub(user," ","_")
-	if msg.to.type == 'chat' then
+  local user = "169740788"
+  if msg.to.type == 'chat' then
     local chat = ''
-    return user
+    chat_add_user(chat, user, callback, false)
   else 
     return 'Only work in group'
   end
+
 end
 
 return {
-  description = "Users Information", 
+  description = "Invite X Y Z C B Robots", 
   usage = {
-    "/info (@user) : get id by username", },
+    "/zac : invite x y z c b bots", 
   patterns = {
-    "^[!/]info (.*)$",
+    "^[!/]zac$"
   }, 
   run = run,
-  moderation = true 
+  privileged = true
 }
 
 end
