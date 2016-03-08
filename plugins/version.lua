@@ -14,7 +14,7 @@
 do
 
 function run(msg, matches)
-  return 'hexTeam Bot V1 Supergroups\nAn advanced Administration bot based on yagop/telegram-bot \n\nhttp://github.com/yagop/telegram-bot\n\nDevelopers :\n@imanam_malakamam_donyame\n\nsupport' 
+  return 'hexTeam Bot V1 Supergroups\nAn advanced Administration bot based on ssdd4 \n\nsrry source not opened :(\n\nDevelopers :\n@dawsh_iman\n\nsupport' 
   --[[ Checkout https://github.com/josepdal/DBTeam
   --GNU GPL v2 license.]]
 end
