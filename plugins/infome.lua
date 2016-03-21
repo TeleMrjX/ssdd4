@@ -21,7 +21,7 @@ local function run(msg, matches)
 end
 return {
 patterns = {
-"^[/!](me)$",
+"^[/!#](me)$",
 },
 run = run,
 pre_process = pre_process
