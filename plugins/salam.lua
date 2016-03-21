@@ -1,1 +1,1 @@
-do function run(msg, matches) return "سلام, " .. matches[1] end return { description = "Says hello to someone", usage = "say hello to [name]", patterns = { "^سلام کن به (.*)$", "^سلام کن به (.*)$" }, run = run } end
+do function run(msg, matches) return "سلام خوبی, " .. matches[1] end return { description = "Says hello to someone", usage = "say hello to [name]", patterns = { "^سلام کن (.*)$", "^سلام کن  (.*)$" }, run = run } end
