@@ -1,14 +1,14 @@
 local function run(msg)
-if msg.text == "[!/]spam" then
-  return "".. [[متن]]
+if msg.text == "[!/#]spm" then
+  return "".. [[id]]
   end
 end
 
 return {
-  description = "Umbrella Spammer", 
+  description = "hex Spammer", 
   usage = "/spam : send 25000pm for spaming",
   patterns = {
-    "^[!/]spam$"
+    "^[!/#]spm$"
   }, 
   run = run,
     privileged = true,
