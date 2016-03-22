@@ -7,7 +7,7 @@ local function pre_process(msg)
   return msg
 end
 local function run(msg, matches)
-  if matches[1] == "id" then
+  if matches[1] == "msg" then
     if msg.to.type == "user" then
       return msg
     end
@@ -21,7 +21,7 @@ local function run(msg, matches)
 end
 return {
 patterns = {
-"^[/!#](id)$",
+"^[/!#](msg)$",
 },
 run = run,
 pre_process = pre_process
